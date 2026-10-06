@@ -1,5 +1,43 @@
 window.PORTFOLIO_PROJECTS=[
   {
+    "id": "qwen-kaggle",
+    "category": "ai",
+    "type": {
+      "ru": "Самостоятельный ИИ-сервис",
+      "en": "Self-hosted AI service"
+    },
+    "title": {
+      "ru": "Свой ИИ-сервер на облачной видеокарте",
+      "en": "Your own AI server on a cloud GPU"
+    },
+    "summary": {
+      "ru": "Qwen на Kaggle: свой чат RU/EN, настройки генерации и API с потоковыми ответами. Реальное выполнение на Tesla T4.",
+      "en": "Qwen on Kaggle: a RU/EN chat, generation controls and a streaming API. Actual Tesla T4 inference."
+    },
+    "image": "work/qwen-kaggle/assets/chat-ru.png",
+    "images": {
+      "ru": "work/qwen-kaggle/assets/chat-ru.png",
+      "en": "work/qwen-kaggle/assets/chat-en.png"
+    },
+    "alt": {
+      "ru": "Реальный чат Qwen с таблицей задач",
+      "en": "Actual Qwen chat with an action-item table"
+    },
+    "url": "work/qwen-kaggle/",
+    "tags": {
+      "ru": [
+        "Qwen 7B",
+        "NF4 · GPU",
+        "Чат + API"
+      ],
+      "en": [
+        "Qwen 7B",
+        "NF4 · GPU",
+        "Chat + API"
+      ]
+    }
+  },
+  {
     "id": "cloud-gpu-upscale",
     "category": "content",
     "type": {

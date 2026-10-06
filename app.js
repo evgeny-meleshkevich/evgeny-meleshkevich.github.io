@@ -35,7 +35,7 @@ const projects=(window.PORTFOLIO_PROJECTS||[]).filter(p=>filter==='all'||p.categ
 $('project-list').replaceChildren();
 for(const p of projects){
 const card=document.createElement('a');card.className='project-card';card.href=p.url+'?lang='+lang;
-if(p.image){const im=document.createElement('img');im.src=p.image;im.alt=p.alt?.[lang]||p.title[lang];im.loading='lazy';card.append(im);}
+if(p.image){const im=document.createElement('img');im.src=p.images?.[lang]||p.image;im.alt=p.alt?.[lang]||p.title[lang];im.loading='lazy';card.append(im);}
 const content=document.createElement('div');content.className='project-card-content';
 const type=document.createElement('span');type.className='meta';type.textContent=p.type[lang];
 const title=document.createElement('h3');title.textContent=p.title[lang];
