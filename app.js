@@ -34,7 +34,7 @@ function renderProjects(){
 const projects=(window.PORTFOLIO_PROJECTS||[]).filter(p=>filter==='all'||p.category===filter);
 $('project-list').replaceChildren();
 for(const p of projects){
-const card=document.createElement('a');card.className='project-card';card.href=p.url;
+const card=document.createElement('a');card.className='project-card';card.href=p.url+'?lang='+lang;
 if(p.image){const im=document.createElement('img');im.src=p.image;im.alt=p.alt?.[lang]||p.title[lang];im.loading='lazy';card.append(im);}
 const content=document.createElement('div');content.className='project-card-content';
 const type=document.createElement('span');type.className='meta';type.textContent=p.type[lang];
@@ -46,7 +46,7 @@ content.append(type,title,summary,tags);card.append(content);$('project-list').a
 $('empty-state').hidden=projects.length>0;
 const c=categories.find(c=>c.id===filter);
 $('empty-title').textContent=c?c[lang].title:tr('emptyTitle');
-$('empty-copy').textContent=c?(lang==='ru'?'Кейсы этого направления готовятся к публикации. Выберите другое направление или посмотрите примеры оформления ниже.':'Case studies in this area are being prepared. Explore another area or preview the presentation formats below.'):tr('emptyCopy');
+$('empty-copy').textContent=c?(lang==='ru'?'Кейсы этого направления добавим позже. Выберите «Все направления», чтобы посмотреть опубликованные работы.':'Case studies in this area will be added later. Select “All areas” to see the published work.'):tr('emptyCopy');
 }
 function setFilter(value){filter=value;renderFilters();renderProjects();}
 function fillDialog(){
