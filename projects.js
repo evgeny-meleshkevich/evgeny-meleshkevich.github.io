@@ -45,7 +45,7 @@ window.PORTFOLIO_PROJECTS=[
       "en": "Post-upscale image preparation"
     },
     "summary": {
-      "ru": "Нормализация имён и очистка метаданных партией с сохранением встроенного цветового профиля.",
+      "ru": "Нормализация имён файлов и пакетная очистка метаданных с сохранением встроенного цветового профиля.",
       "en": "Batch filename normalisation and metadata cleanup while retaining the embedded colour profile."
     },
     "image": "work/image-file-cleanup/assets/input.jpeg",
