@@ -2,7 +2,7 @@
 
 Bilingual static portfolio foundation for AI tools, data and automation.
 
-Live site: https://evgeny-ai-lab.github.io/
+Live site: https://evgeny-meleshkevich.github.io/
 
 ## Local preview
 
