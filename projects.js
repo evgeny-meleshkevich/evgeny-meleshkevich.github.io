@@ -7,12 +7,12 @@ window.PORTFOLIO_PROJECTS=[
       "en": "Cloud AI service"
     },
     "title": {
-      "ru": "От нейросетевой модели — к пакетному GPU-сервису",
-      "en": "From a neural model to a batch GPU service"
+      "ru": "Качественный ИИ-апскейл без мощного компьютера",
+      "en": "Quality AI upscaling without a powerful computer"
     },
     "summary": {
-      "ru": "Адаптация ONNX-моделей, запуск на облачной NVIDIA L4 и обработка папки изображений с результатом до 6144 × 2560.",
-      "en": "ONNX model integration, cloud NVIDIA L4 execution and folder processing with outputs up to 6144 × 2560."
+      "ru": "Адаптация нескольких моделей и настроек для удалённого апскейла на NVIDIA L4. Управление с MacBook или слабого компьютера.",
+      "en": "Multiple model adapters and quality controls for remote NVIDIA L4 upscaling, operated from a MacBook or modest computer."
     },
     "image": "work/cloud-gpu-upscale/assets/overview.webp",
     "alt": {
