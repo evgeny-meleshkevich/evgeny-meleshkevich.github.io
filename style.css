@@ -1118,3 +1118,22 @@ transition:none!important;
 animation:none!important}
 }
 
+
+/* Work-first portfolio: compact introduction, projects before biography. */
+.work-hero{display:block;padding-top:56px;padding-bottom:30px;min-height:0}
+.work-hero h1{font-size:clamp(36px,5vw,64px);line-height:1.12;margin:20px 0 16px;letter-spacing:-.04em}
+.work-hero .intro{max-width:740px;margin:0;font-size:18px}
+#work .section{padding-top:44px;padding-bottom:64px}
+#work .section-heading{margin-bottom:26px}
+#work h2{font-size:clamp(28px,3vw,42px)}
+.about-section{padding-top:64px;padding-bottom:64px}
+.about-section h2{font-size:clamp(28px,3vw,40px);max-width:850px}
+.about-lead{max-width:900px;font-size:18px;line-height:1.7;color:var(--muted)}
+.about-subtitle{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin:32px 0 20px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px 44px}
+.about-grid article{border-top:1px solid var(--line);padding-top:20px}
+.about-grid h3{font-size:18px;line-height:1.4;margin:0 0 10px}
+.about-grid p{font-size:15px;line-height:1.7;margin:0;color:var(--muted)}
+.competencies{margin-top:32px;padding-top:24px;border-top:1px solid var(--line)}
+.competencies h3{font-size:14px}.competencies p{font-size:14px;line-height:1.9;max-width:900px}
+@media(max-width:700px){.work-hero{padding-top:32px;padding-bottom:20px}.work-hero .intro,.about-lead{font-size:16px}.about-grid{grid-template-columns:1fr;gap:24px}#work .section{padding-top:28px}.about-section{padding-top:40px;padding-bottom:40px}}
