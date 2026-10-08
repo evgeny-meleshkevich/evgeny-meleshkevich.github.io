@@ -1,4 +1,38 @@
 window.PORTFOLIO_PROJECTS=[
+{
+  "id": "auction-scout",
+  "category": "ai",
+  "type": {
+    "ru": "AI-агент для заказчика",
+    "en": "Client AI agent"
+  },
+  "title": {
+    "ru": "Auction Scout — отбор аукционных авто и мотоциклов",
+    "en": "Auction Scout — AI vehicle screening"
+  },
+  "summary": {
+    "ru": "Агент собирает объявления, оценивает повреждения по фото и отбирает лоты по условиям заказчика. Правила можно корректировать.",
+    "en": "Collects listings, assesses visible damage and shortlists vehicles against client requirements. Selection rules can be refined."
+  },
+  "image": "work/auction-scout/assets/selection.png",
+  "alt": {
+    "ru": "Реальная подборка Auction Scout",
+    "en": "Actual Auction Scout shortlist; Russian interface"
+  },
+  "url": "work/auction-scout/",
+  "tags": {
+    "ru": [
+      "Gemini",
+      "Анализ фото",
+      "Память предпочтений"
+    ],
+    "en": [
+      "Gemini",
+      "Photo analysis",
+      "Preference memory"
+    ]
+  }
+},
   {
     "id": "qwen-kaggle",
     "category": "ai",
