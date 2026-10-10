@@ -1,0 +1,7 @@
+/* A narrower shared layout; both palettes use identical content and geometry. */
+.wrap{width:min(1080px,calc(100% - 64px))}.header{width:min(1080px,calc(100% - 64px))}
+.theme-switch{display:flex;align-items:center;justify-content:flex-end;gap:7px;padding-top:16px;font-size:11px}.theme-label{color:var(--muted);margin-right:5px}.theme-switch button{font:inherit;padding:6px 11px;border:1px solid var(--line);border-radius:20px;background:transparent;cursor:pointer;color:var(--ink)}.theme-switch button[aria-pressed=true]{background:var(--green);color:white;border-color:var(--green)}
+:root[data-theme=violet]{--paper:#fff;--ink:#0f172a;--muted:#64748b;--green:#6d28d9;--lime:#ede9fe;--line:#e2e8f0;--white:#fff}
+[data-theme=violet] .work-section{background:#fff}[data-theme=violet] .project-card{background:#f8fafc}[data-theme=violet] .project-card:hover{border-color:#c4b5fd;background:#f1f5f9}[data-theme=violet] .filter{border-color:#e2e8f0}[data-theme=violet] .filter[aria-pressed=true]{border-color:var(--green)}[data-theme=violet] .project-tags span,[data-theme=violet] .scout-tags span,[data-theme=violet] .gpu-tags span{background:#ede9fe;color:#5b21b6}[data-theme=violet] .contactCopy{color:#ede9fe}[data-theme=violet] .contact p{color:#ede9fe}[data-theme=violet] .button.primary:hover{background:#5b21b6}[data-theme=violet] .contact .button{background:#ede9fe;color:#5b21b6}
+.project-card img{cursor:pointer}
+@media(max-width:600px){.wrap,.header{width:calc(100% - 36px)}.theme-switch{padding-top:12px;font-size:10px}}
