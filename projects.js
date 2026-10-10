@@ -14,7 +14,7 @@ window.PORTFOLIO_PROJECTS=[
     "ru": "Агент собирает объявления, оценивает повреждения по фото и отбирает лоты по условиям заказчика. Правила можно корректировать.",
     "en": "Collects listings, assesses visible damage and shortlists vehicles against client requirements. Selection rules can be refined."
   },
-  "image": "work/auction-scout/assets/selection-hidpi.png",
+  "image": "work/auction-scout/assets/selection-retina.png",
   "alt": {
     "ru": "Реальная подборка Auction Scout",
     "en": "Actual Auction Scout shortlist; Russian interface"

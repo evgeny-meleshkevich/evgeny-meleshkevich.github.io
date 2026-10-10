@@ -3,5 +3,3 @@
 
 .measured-result{border-left:3px solid var(--green);padding:12px 22px;margin:30px 0;background:var(--paper)}.measured-result h3{font-size:17px;margin:0 0 10px}.measured-result p{font-size:15px;line-height:1.8;color:var(--muted);margin:0}
 
-/* Keep screenshot text readable instead of shrinking full cards into columns. */
-.result-shots{grid-template-columns:1fr;max-width:768px;gap:24px}.result-shots .shot img{max-width:none}.learning-layout{grid-template-columns:1fr}.learning-layout .shot{max-width:650px;width:100%;margin:16px auto}.learning-layout>div{max-width:950px}
