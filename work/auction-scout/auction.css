@@ -3,3 +3,5 @@
 
 .measured-result{border-left:3px solid var(--green);padding:12px 22px;margin:30px 0;background:var(--paper)}.measured-result h3{font-size:17px;margin:0 0 10px}.measured-result p{font-size:15px;line-height:1.8;color:var(--muted);margin:0}
 
+
+.screenshot-frame{background:#151515;border:1px solid #151515;border-radius:12px;padding:0 5px 5px;overflow:hidden}.screenshot-bar{height:30px;display:flex;align-items:center;gap:12px;padding:0 8px;color:#ccc;font-size:10px;line-height:1;user-select:none}.screenshot-dots{font-size:9px;letter-spacing:2px;color:#666}.shot .screenshot-frame img{border:0;border-radius:5px;width:100%;max-width:none}.result-shots .screenshot-frame{max-width:420px;margin:auto}@media(max-width:480px){.screenshot-bar{height:26px}.screenshot-frame{padding:0 4px 4px}}
